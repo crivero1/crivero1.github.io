@@ -11,8 +11,8 @@ function parser(text){
     // console.log(listToParse);
     return (
         <>
-        {text.map(line => (
-              <p className="text-left text-body">
+        {text.map((line, i) => (
+              <p key={i} className="text-left text-body">
                   {line}
               </p>
           ))}
@@ -24,10 +24,10 @@ function listToBoxes(listOfParams, color, bold_color){
     // console.log(listOfParams);
     return (
         <>
-            {listOfParams.map(elem => 
+            {listOfParams.map((elem, i) => 
             // {
                 (
-                <BoxResearch obj={elem} color={color} bold_color={bold_color} border_shape=''/>
+                <BoxResearch key={i} obj={elem} color={color} bold_color={bold_color} border_shape=''/>
             )
             // , console.log(elem)
             // }
@@ -67,10 +67,11 @@ export default function HomePage() {
                             <div>
                                 {parser(Description['information'][0]['address'])}
                             </div>
-                            <div>
-                                <p className="text-body text-left my-3">
+                            <div className="text-body text-left my-3 text-blue-1">
+                                {/* <p className="text-body text-left my-3">
                                     {Description['information'][0]['phone']}
-                                </p>
+                                </p> */}
+                                <a href={`tel:${Description['information'][0]['phone']}`}>{Description['information'][0]['phone']}</a>
                             </div>
                             <div className="text-left text-body text-blue-1 my-3">
                                 <a href={`mailto:${Description['information'][0]['email']}`}>{Description['information'][0]['email']}</a>
