@@ -6,8 +6,8 @@ function parser(text){
     if (typeof text != 'string'){
       return (
         <>
-          {text.map(line => (
-              <p className="text-justify text-body">
+          {text.map((line, i) => (
+              <p key={i} className="text-justify text-body">
                   {line}
               </p>
           ))}
@@ -36,9 +36,9 @@ function objToP(objToParse){
     const listOfKeys = (Object.keys(objToParse));
     return (
         <>
-          {listOfKeys.map(key => (
-              <div className="text-justify text-body my-3">
-                  {parser(objToParse[key])}
+          {listOfKeys.map((keys, i) => (
+              <div key={i} className="text-justify text-body my-3">
+                  {parser(objToParse[keys])}
               </div>
           ))}
         </>

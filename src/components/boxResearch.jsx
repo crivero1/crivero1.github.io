@@ -4,8 +4,8 @@ function parserObj(text){
     if (typeof text != 'string'){
       return (
         <>
-          {text.map(line => (
-              <p className="text-left text-body">
+          {text.map((line, i) => (
+              <p key={i} className="text-left text-body">
                   {line}
               </p>
           ))}
@@ -22,7 +22,7 @@ function listToP(listToParse){
     return (
         <>
         {listToParse.map((line, index) => (
-            <div className="text-left text-body my-1">
+            <div key={index} className="text-left text-body my-1">
                 {objToParser(line, index)}
             </div>
         ))}
@@ -58,17 +58,17 @@ function objToParser(objToParse, index){
                 <path d="M160 96L480 96C515.3 96 544 124.7 544 160L544 480C544 515.3 515.3 544 480 544L160 544C124.7 544 96 515.3 96 480L96 160C96 124.7 124.7 96 160 96z"/>
               </svg> */}
               {/* <SquareIcon></SquareIcon> */}
-              {objToParse["author"]}
-            </div>
-            <p className="pl-4">
+              {/* {objToParse["author"]} */}
+              <p className="pl-4">
               <span className="italic">{objToParse["title"]}</span>. {objToParse["journal"]}, {objToParse["year"]}
             </p>
+            </div>
           </div>
         </>
     )
 }
 
-export default function BoxResearch( {obj, link, color, border_shape} ) {
+export default function BoxResearch( {obj, link, color, border_shape, bold_color} ) {
   // console.log(obj)
   return (
     <div className={`m-2 bg-neutral-primary-soft flex flex-col p-5 border border-transparent content-around justify-start content-between ${color} ${border_shape}`}>
@@ -85,7 +85,7 @@ export default function BoxResearch( {obj, link, color, border_shape} ) {
       <div className='text-justify mt-2 flex-1'>
         {obj['description']}
       </div>
-      <a href={link} className='mt-2 text-right font-light'>
+      <a href={link} className={`mt-2 text-right font-medium ${bold_color}`}>
         More
       </a>
     </div>
