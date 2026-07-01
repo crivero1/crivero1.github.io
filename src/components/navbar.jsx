@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 export default function Navbar () {
-    const [hideMenu, setHideMenu] = useState(false);
+    const [hideMenu, setHideMenu] = useState(true);
     return (
     <>
         {/* <nav className="bg-neutral-secondary-soft fixed w-full z-20 top-0 start-0 border-b border-default"> */}
