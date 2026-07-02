@@ -19,34 +19,28 @@ export default function Navbar () {
                 </button>
             </div>
         </nav>
-        <div 
-            className="
-            fixed z-20 top-10
-            bg-gray-1
-            justify-self-end"
-            // md:w-2/16 xl:w-2/16
-            >
-                <ul className={'bg-gray-1 w-3/16 flex flex-col font-medium m-2 pt-0 space-y-2' + (hideMenu ? ' hidden' : '')}>
-                    <li>
-                        <a href="/" className="block py-2 px-3 hover:text-white bg-brand rounded ">Home</a>
-                    </li>
-                    <li>
-                        <a href="/publications" className="block py-2 px-3 text-heading rounded hover:text-white ">Publications</a>
-                    </li>
-                    <li>
-                        <a href="/students" className="block py-2 px-3 text-heading rounded hover:text-white ">Students</a>
-                    </li>
-                    <li>
-                        <a href="/projects" className="block py-2 px-3 text-heading rounded hover:text-white ">Projects</a>
-                    </li>
-                    <li>
-                        <a href="/courses" className="block py-2 px-3 text-heading rounded hover:text-white ">Courses</a>
-                    </li>
-                    <li>
-                        <a href="/talks" className="block py-2 pb-4 px-3 text-heading rounded hover:text-white ">Talks</a>
-                    </li>
-                </ul>
-            </div>
+        <div className={'fixed z-20 top-10 bg-gray-1 justify-self-end' + (hideMenu ? ' hidden' : '')}>
+            <ul className={'bg-gray-1 w-3/16 flex flex-col font-medium m-2 pt-0 space-y-2' + (hideMenu ? ' hidden' : '')}>
+                <li>
+                    <a href="/" className="block py-2 px-3 hover:text-white bg-brand rounded ">Home</a>
+                </li>
+                <li>
+                    <a href="/publications" className="block py-2 px-3 text-heading rounded hover:text-white ">Publications</a>
+                </li>
+                <li>
+                    <a href="/students" className="block py-2 px-3 text-heading rounded hover:text-white ">Students</a>
+                </li>
+                <li>
+                    <a href="/projects" className="block py-2 px-3 text-heading rounded hover:text-white ">Projects</a>
+                </li>
+                <li>
+                    <a href="/courses" className="block py-2 px-3 text-heading rounded hover:text-white ">Courses</a>
+                </li>
+                <li>
+                    <a href="/talks" className="block py-2 pb-4 px-3 text-heading rounded hover:text-white ">Talks</a>
+                </li>
+            </ul>
+        </div>
     </>
     )
 }
