@@ -60,7 +60,7 @@ function objToParser(objToParse, index){
               {/* <SquareIcon></SquareIcon> */}
               {/* {objToParse["author"]} */}
               <p className="pl-4">
-              <span className="italic">{objToParse["title"]}</span>. {objToParse["journal"]}, {objToParse["year"]}
+              <span className="italic">{objToParse["title"]}</span>. Together with {objToParse["author"]}. In {objToParse["journal"]} {objToParse["year"]}.
             </p>
             </div>
           </div>

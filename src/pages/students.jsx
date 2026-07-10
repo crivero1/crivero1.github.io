@@ -1,7 +1,17 @@
 import Students from '../information/students.json';
 import BoxStudents from '../components/boxStudents';
 
+function isActive (a, b) {
+    if (a['active'] == 'Yes') {
+        return -1;
+    } else if (b['active'] == 'Yes') {
+        return 1;
+    } else { return 0 }
+}
+
 function listToBoxes(listOfParams){
+    // console.log(listOfParams);
+    listOfParams.sort(isActive);
     // console.log(listOfParams);
     return (
         <>
@@ -26,8 +36,9 @@ export default function StudentsPage() {
         <div className="mt-10">
             <div className="md:grid md:grid-cols-2 ">
                 {/* <BoxStudents student={Students['phd'][0]} color='bg-gray-1'/> */}
-                {listToBoxes(Students['phd'])}
-                {listToBoxes(Students['master'])}
+                {listToBoxes(Students['students'])}
+                {/* {listToBoxes(Students['phd'])} */}
+                {/* {listToBoxes(Students['master'])} */}
             </div>
         </div>
         </>
