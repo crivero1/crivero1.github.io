@@ -1,18 +1,18 @@
 {
     "conferences": [
-        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
-        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
-        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
-        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2009", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
-        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2010", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
-        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2010", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
-        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2009", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
-        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2011", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
-        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2012", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
-        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2013", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
-        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2014", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""}
+        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "authors": ["Marcelo Arenas", "Jorge Pérez"], "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
+        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "authors": ["Marcelo Arenas", "Jorge Pérez"], "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
+        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "authors": ["Marcelo Arenas", "Jorge Pérez"], "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
+        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "authors": ["Marcelo Arenas", "Jorge Pérez"], "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
+        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "authors": ["Marcelo Arenas", "Jorge Pérez"], "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
+        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "authors": ["Marcelo Arenas", "Jorge Pérez"], "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
+        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "authors": ["Marcelo Arenas", "Jorge Pérez"], "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
+        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "authors": ["Marcelo Arenas", "Jorge Pérez"], "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
+        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "authors": ["Marcelo Arenas", "Jorge Pérez"], "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
+        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "authors": ["Marcelo Arenas", "Jorge Pérez"], "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
+        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "authors": ["Marcelo Arenas", "Jorge Pérez"], "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""}
     ],
     "journal": [
-        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "authors": "Marcelo Arenas and Jorge Pérez", "type": "TODS", "pdf-link":"", "slides-link": "", "comments": ""}
+        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "authors": ["Marcelo Arenas", "Jorge Pérez"], "type": "TODS", "pdf-link":"", "slides-link": "", "comments": ""}
     ]
 }
