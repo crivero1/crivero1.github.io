@@ -27,7 +27,7 @@ export default function BoxStudents( {student, color, border_shape, bold_color} 
             <div className="pb-2 text-2xl text-left font-medium text-gray-600">
                 {student["name"]}
             </div>
-            <div className={`text-justify text-lg mt-2 flex-1 ${bold_color}`}>
+            <div className={`text-justify font-semibold text-lg mt-2 flex-1 ${bold_color}`}>
                 {/* {listToP(student["period"])} */}
                 {student["period"]}
             </div>

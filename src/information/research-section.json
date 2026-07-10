@@ -6,13 +6,19 @@
         },
         {
             "title": "Information Extraction",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "Most data today is semi-structured, like JSON files, CSV files, or plain text files, and extracting and transforming data from them is a repetitive task in data-intensive workloads. To speed up this task, rule-based information extraction allows one to specify patterns, like regex, for the data pieces one wants to extract and transform. In this line of research, my group studies the foundations of rule-based information extraction, enhancing classical regex with novel extraction mechanisms, usually referred to in the area as document spanners. We study extensions of the classical theory of regular expressions and automata theory, and efficient algorithms for evaluating them, to enable a useful, efficient process for extracting and transforming data from text documents.",
             "important-work": [{"author": "Alejandro Grez, Cristian Riveros, Martín Ugarte, Stijn Vansummeren", "title": "A Formal Framework for Complex Event Recognition", "journal": "{ACM} Trans. Database Syst.", "year": 
+            "2021", "url": "https://doi.org/10.1145/3485463"}, {"author": "Alejandro Grez, Cristian Riveros, Martín Ugarte, Stijn Vansummeren", "title": "A Formal Framework for Complex Event Recognition", "journal": "{ACM} Trans. Database Syst.", "year": 
             "2021", "url": "https://doi.org/10.1145/3485463"}]
         },
         {
             "title": "Automata Theory",
-            "description": " ",
+            "description": "Automata theory studies state-based computational models for computing patterns or functions over sequences. In my group, we usually apply automata theory to data management tasks on data structured as sequences (like text documents, streams, or paths in graph data). But we also studied the foundations of automata theory, exploring new models and properties, and proposing new algorithms for automata-related problems.",
+            "important-work": []
+        },
+        {
+            "title": "Query Evaluation",
+            "description": "Relational databases are probably the most popular systems for storing data structured as tables, and querying data by using SQL. In this line of research, my group studies efficient storing of relation data and processing of SQL queries.",
             "important-work": []
         }
     ],

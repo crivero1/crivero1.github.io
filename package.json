@@ -2,7 +2,7 @@
   "name": "Cristian Riveros' web page",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://crivero1.github.io/",
+  "homepage": "https://crivero1.github.io/#",
   "type": "module",
   "scripts": {
     "dev": "vite",

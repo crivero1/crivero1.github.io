@@ -27,6 +27,9 @@ export default function TalksPage() {
     return(
         <>
         <div className="mt-10">
+            <div className='border-b text-left text-5xl mb-2 text-gray-600'>
+                Talks
+            </div>
             <div className="md:grid md:grid-cols-2 ">
                 {/* <BoxTalks student={Talks['phd'][0]} color='bg-gray-1'/> */}
                 {listToBoxes(Talks['talks'])}

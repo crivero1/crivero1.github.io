@@ -6,7 +6,7 @@ function listToP(listToParse){
             <div key={index} className="text-left text-body my-4">
                 {/* <div className="text-left text-body my-2"> */}
                     <div className="flex">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 10" fill="currentColor" className="size-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 10" fill="currentColor" className="w-8 h-8">
                         <path fillRule="evenodd" d="M4.5 7.5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-9a3 3 0 0 1-3-3v-9Z" clipRule="evenodd" />
                         </svg>
                         {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
@@ -29,11 +29,15 @@ function listToP(listToParse){
 
 export default function BoxResearch( {papers, color, border_shape, bold_color, title} ) {
     // console.log(papers)
+    // papers.reverse();
     return (
         <div className={`m-2 flex flex-col p-5 content-around justify-start content-between ${color} ${border_shape}`}>
             <div className="pb-2 text-2xl text-left font-medium text-gray-600">
                 {title}
             </div>
+            <p className="border-b text-left">
+                2026
+            </p>
             <div className={`text-justify mt-2 flex-1 ${bold_color}`}>
                 {listToP(papers)}
             </div>

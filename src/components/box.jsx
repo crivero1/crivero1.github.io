@@ -83,15 +83,15 @@ export default function Box( {title, list, link, color, border_shape} ) {
     // </div>
     // <div class="bg-neutral-primary-soft block max-w-sm p-6 border border-default rounded-base shadow-xs hover:bg-neutral-secondary-medium">
     // <div className={`m-2 bg-neutral-primary-soft flex flex-col p-8 border border-gray-100 content-around justify-start content-between ${color} ${border_shape}`}>
-    <div className={`m-2 bg-neutral-primary-soft flex flex-col p-5 border border-transparent content-around justify-start content-between ${color} ${border_shape}`}>
+    <div className={`m-2 flex p-5 border border-transparent justify-center items-center ${color} ${border_shape}`}>
       {/* <h5 class="mb-3 text-2xl font-semibold tracking-tight text-heading leading-8">Noteworthy technology acquisitions 2021</h5> */}
-      <div className="pb-2 text-2xl text-left font-medium text-gray-600">
+      <div className="pb-2 text-5xl text-center font-medium text-gray-600">
         {title}
       </div>
-      <div className='flex-1'>
-        {/* {listToP(list)} */}
+      {/* <div className='flex-1'>
+        {listToP(list)}
         {objToP(list)}
-      </div>
+      </div> */}
       {/* <a href={link} className='mt-2 text-right font-light'>
         More
       </a> */}

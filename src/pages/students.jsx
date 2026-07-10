@@ -34,6 +34,9 @@ export default function StudentsPage() {
     return(
         <>
         <div className="mt-10">
+            <div className='border-b text-left text-5xl mb-2 text-gray-600'>
+                Students
+            </div>
             <div className="md:grid md:grid-cols-2 ">
                 {/* <BoxStudents student={Students['phd'][0]} color='bg-gray-1'/> */}
                 {listToBoxes(Students['students'])}

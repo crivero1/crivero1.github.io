@@ -27,7 +27,10 @@ export default function CoursesPage() {
     return(
         <>
         <div className="mt-10">
-            <div className="md:grid md:grid-cols-2 ">
+            <div className='border-b text-left text-5xl mb-2 text-gray-600'>
+                Courses
+            </div>
+            <div className="md:grid ">
                 {/* <BoxCourses student={Courses['phd'][0]} color='bg-gray-1'/> */}
                 {listToBoxes(Courses['courses'])}
                 {/* {listToBoxes(Courses['master'])} */}

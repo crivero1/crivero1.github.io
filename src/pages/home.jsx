@@ -43,13 +43,13 @@ export default function HomePage() {
                 <div className="md:grid md:grid-cols-2 ">
                     {/* <Box title='Cristian Riveros' list={Description['who-i-am'][0]} color='bg-white' border_shape='rounded-xl'/> */}
                     <div className={`m-2 bg-neutral-primary-soft flex flex-col p-5 border border-transparent justify-start bg-white rounded-xl`}>
-                        <div className="pb-2 text-3xl text-left font-medium text-gray-600">
+                        <div className="pb-2 text-5xl text-left font-medium text-gray-600">
                             Cristian Riveros
                         </div>
                         <div className='flex flex-col items-center lg:flex-row'>
                             <img className="md:size-28 md:m-5 size-24 m-2 rounded-full object-contain" src={Foto} alt="Profile picture"/>
                             <div className="text-justify text-body my-3">
-                                {Description['who-i-am'][0]['description']}
+                                I am an <span className='font-medium text-blue-1'>associate professor at the Department of Computer Science at the Pontificia Universidad Católica de Chile (PUC Chile)</span>.  My research interests are in the connection between theoretical computer science and databases, an area known as database theory. You can find more about my research topics, implementation projects, and courses below.
                             </div>
                         </div>
                     </div>
@@ -99,7 +99,7 @@ export default function HomePage() {
                     </div>
                 </div>
                 <div className="md:grid md:grid-cols-2 ">
-                    {<Box title='Research' list={Topics['information'][0]} color='bg-blue-3' border_shape='rounded-xl'/>}
+                    {<Box title='Research Areas' list={Topics['information'][0]} color='bg-blue-3' border_shape='rounded-xl'/>}
                     {listToBoxes(Topics['research-topics'], 'bg-blue-3', 'black')}
                     {/* {listToBoxes(Projects['projects-topics'], 'bg-gray-1')} */}
                 </div>
