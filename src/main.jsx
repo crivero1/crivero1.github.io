@@ -8,10 +8,10 @@ import Layout from './pages/layout.jsx';
 import HomePage from './pages/home.jsx';
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-  // <HashRouter>
+  // <BrowserRouter>
   //   <App />
-  // </HashRouter>
+  // </BrowserRouter>,
+  <HashRouter>
+    <App />
+  </HashRouter>
 );
