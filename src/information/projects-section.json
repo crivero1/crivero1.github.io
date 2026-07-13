@@ -2,18 +2,23 @@
         {
             "title": "CORE", "url": "https://www.ing.uc.cl/en/academicos-e-investigadores/cristian-riveros-jaeger/",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "important-work": [{"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "author": ["Marcelo Arenas, Jorge Pérez, Cristian Riveros"], "journal": "", "url":"", "slides-link": "", "comments": ""}, {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "author": "Marcelo Arenas, Jorge Pérez, Cristian Riveros", "journal": "", "url":"", "slides-link": "", "comments": ""}]
+            "important-work": [
+                {"title": "CORE+: A Complex Event Recognition Engine in C++", "year": "2025", "authors": "Kyle Bossonney, Nicolás Buzeta, Vicente Calisto, Juan-Eduardo López and Stijn Vansummeren", "type": "SIGMOD", "pdf-link": "dl.acm.org/doi/10.1145/3722212.3725090", "slides-link": "", "comments": ""}, {"title": "CORE: a COmplex event Recognition Engine", "year": "2022", "authors": "Marco Bucchi, Alejandro Grez, Andrés Quintana and Stijn Vansummeren", "type": "PVLDB", "pdf-link": "https://www.vldb.org/pvldb/vol15/p1951-riveros.pdf", "slides-link": "", "comments": ""}
+            ]
         },
         {
             "title": "ReMatch", "url": "",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "important-work": [{"author": "Alejandro Grez, Cristian Riveros, Martín Ugarte, Stijn Vansummeren", "title": "A Formal Framework for Complex Event Recognition", "journal": "{ACM} Trans. Database Syst.", "year": 
-            "2021", "url": "https://doi.org/10.1145/3485463"}]
+            "important-work": [
+                {"title": "Demonstrating REmatch: A Novel RegEx Engine for Finding all Matches", "year": "2024", "authors": "Kyle Bossonney, Vicente Calisto, Gustavo Toro, Nicolás Van Sint Jan and Domagoj Vrgoc", "type": "SIGMOD", "pdf-link": "dl.acm.org/doi/10.1145/3626246.3654746", "slides-link": "", "comments": ""}
+            ]
         },
         {
             "title": "Milenium DB",
             "description": " ",
-            "important-work": []
+            "important-work": [
+                {"title": "MillenniumDB: An Open-Source Graph Database System", "year": "2023", "authors": "Domagoj Vrgoc, Carlos Rojas, Renzo Angles, Marcelo Arenas, Diego Arroyuelo, Carlos Buil-Aranda, Aidan Hogan, Gonzalo Navarro, and Juan Romero", "type": "Data Intelligence", "pdf-link": "direct.mit.edu/dint/article/5/3/560/117375/MillenniumDB-An-Open-Source-Graph-Database-System", "slides-link": "", "comments": ""}
+            ]
         }
     ],
     "information": [

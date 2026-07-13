@@ -1,23 +1,140 @@
 {
     "conferences": 
         {
-            "2026": 
-        [{"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
-        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
-        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
-        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2009", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
-        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2010", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
-        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2010", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
-        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2009", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
-        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2011", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
-        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2012", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
-        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2013", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""},
-        {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2014", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link":"https://criveros.ing.uc.cl/papers/tods09.pdf", "slides-link": "", "comments": ""}
-        ]
+            "2026": [
+                {"title": "A simple algorithmic framework for disambiguation of finite automata", "year": "2026", "authors": "Mauricio Cari, and Martín Muñoz", "type": "ESA", "pdf-link": "", "slides-link": "", "comments": ""},
+                {"title": "Active Learning of Symbolic Automata over Rational Numbers", "year": "2026", "authors": "Sebastián Hagedorn Gaete, Martin Muñoz and Rodrigo Toro Icarte", "type": "AAAI", "pdf-link": "https://ojs.aaai.org/index.php/AAAI/article/view/38982", "slides-link": "", "comments": ""},
+                {"title": "A Formal Query Language and Automata Model for Aggregation in Complex Event Recognition", "year": "2026", "authors": "Pierre Bourhis and Amaranta Salas", "type": "ICDT", "pdf-link": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICDT.2026.15", "slides-link": "", "comments": ""}
+            ],
+            "2025": [
+                {"title": "Complex Event Recognition under Time Constraints: Towards a Formal Framework for Efficient Query Evaluation", "year": "2025", "authors": "Julián García", "type": "PODS", "pdf-link": "https://arxiv.org/abs/2504.00723", "slides-link": "", "comments": ""},
+                {"title": "A Framework for Extraction and Transformation of Documents", "year": "2025", "authors": "Markus L. Schmid and Nicole Schweikardt", "type": "ICDT", "pdf-link": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICDT.2025.18", "slides-link": "", "comments": ""},
+                {"title": "Dynamic Direct Access of MSO Query Evaluation over Strings", "year": "2025", "authors": "Pierre Bourhis, Florent Capelli and Stefan Mengel", "type": "ICDT", "pdf-link": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICDT.2025.26", "slides-link": "", "comments": ""},
+                {"title": "CORE+: A Complex Event Recognition Engine in C++", "year": "2025", "authors": "Kyle Bossonney, Nicolás Buzeta, Vicente Calisto, Juan-Eduardo López and Stijn Vansummeren", "type": "SIGMOD", "pdf-link": "dl.acm.org/doi/10.1145/3722212.3725090", "slides-link": "", "comments": ""}
+            ],
+            "2024": [
+                {"title": "Enumeration and Updates for Conjunctive Linear Algebra Queries Through Expressibility", "year": "2024", "authors": "Thomas Muñoz and Stijn Vansummeren", "type": "ICDT", "pdf-link": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICDT.2024.12", "slides-link": "", "comments": ""},
+                {"title": "Demonstrating REmatch: A Novel RegEx Engine for Finding all Matches", "year": "2024", "authors": "Kyle Bossonney, Vicente Calisto, Gustavo Toro, Nicolás Van Sint Jan and Domagoj Vrgoc", "type": "SIGMOD", "pdf-link": "dl.acm.org/doi/10.1145/3626246.3654746", "slides-link": "", "comments": ""}
+            ],
+            "2023": [
+                {"title": "Constant-Delay Enumeration for SLP-Compressed Documents", "year": "2023", "authors": "Martin Muñoz", "type": "ICDT", "pdf-link": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICDT.2023.7", "slides-link": "", "comments": ""},
+                {"title": "How Do Centrality Measures Choose the Root of Trees?", "year": "2023", "authors": "Jorge Salas and Oskar Skibski", "type": "ICDT", "pdf-link": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICDT.2023.12", "slides-link": "", "comments": ""}
+            ],
+            "2022": [
+                {"title": "Streaming Enumeration on Nested Documents", "year": "2022", "authors": "Martin Muñoz", "type": "ICDT", "pdf-link": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICDT.2022.19", "slides-link": "", "comments": ""},
+                {"title": "Efficient Enumeration for Annotated Grammars", "year": "2022", "authors": "Antoine Amarilli, Louis Jachiet and Martin Muñoz", "type": "PODS", "pdf-link": "dl.acm.org/doi/10.1145/3517804.3526232", "slides-link": "", "comments": ""}
+            ],
+            "2021": [
+                {"title": "Ranked Enumeration of MSO Logic on Words", "year": "2021", "authors": "Pierre Bourhis, Alejandro Grez and Louis Jachiet", "type": "ICDT", "pdf-link": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICDT.2021.20", "slides-link": "", "comments": ""},
+                {"title": "Dynamic Data Structures for Timed Automata Acceptance", "year": "2021", "authors": "Alejandro Grez, Filip Mazowiecki, Michal Pilipczuk and Gabriele Puppis", "type": "IPEC", "pdf-link": "hhttps://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.IPEC.2021.20", "slides-link": "", "comments": ""},
+                {"title": "Expressive Power of Linear Algebra Query Languages", "year": "2021", "authors": "Floris Geerts, Thomas Muñoz and Domagoj Vrgoc", "type": "PODS", "pdf-link": "dl.acm.org/doi/10.1145/3452021.3458314", "slides-link": "", "comments": ""},
+                {"title": "A polynomial-time approximation algorithm for counting words accepted by an NFA (invited paper)", "year": "2021", "authors": "Marcelo Arenas, Luis Alberto Croquevielle and Rajesh Jayaram", "type": "STOC", "pdf-link": "dl.acm.org/doi/10.1145/3406325.3465353", "slides-link": "", "comments": ""},
+                {"title": "When is approximate counting for conjunctive queries tractable?", "year": "2021", "authors": "Marcelo Arenas, Luis Alberto Croquevielle and Rajesh Jayaram", "type": "STOC", "pdf-link": "dl.acm.org/doi/10.1145/3406325.3451014", "slides-link": "", "comments": ""}
+            ],
+            "2020": [
+                {"title": "Towards Streaming Evaluation of Queries with Correlation in Complex Event Processing", "year": "2020", "authors": "Alejandro Grez and Martín Ugarte", "type": "ICDT", "pdf-link": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICDT.2020.14", "slides-link": "", "comments": ""},
+                {"title": "On the Expressiveness of Languages for Complex Event Recognition", "year": "2020", "authors": "Alejandro Grez, Martín Ugarte and  Stijn Vansummeren", "type": "ICDT", "pdf-link": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICDT.2020.15", "slides-link": "", "comments": ""},
+                {"title": "A Family of Centrality Measures for Graph Data Based on Subgraphs", "year": "2020", "authors": "Jorge Salas", "type": "ICDT", "pdf-link": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICDT.2020.23", "slides-link": "", "comments": ""}
+            ],
+            "2019": [
+                {"title": "A Formal Framework for Complex Event Processing", "year": "2019", "authors": "Alejandro Grez and Martín Ugarte", "type": "ICDT", "pdf-link": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICDT.2019.5", "slides-link": "", "comments": ""},
+                {"title": "Efficient Logspace Classes for Enumeration, Counting, and Uniform Generation", "year": "2019", "authors": "Marcelo Arenas, Luis Alberto Croquevielle and Rajesh Jayaram", "type": "PODS", "pdf-link": "dl.acm.org/doi/10.1145/3294052.3319704", "slides-link": "", "comments": ""},
+                {"title": "A Worst-Case Optimal Join Algorithm for SPARQL", "year": "2019", "authors": "Aidan Hogan, Carlos Rojas and Adrián Soto", "type": "ISWC", "pdf-link": "link.springer.com/10.1007/978-3-030-30793-6_15", "slides-link": "", "comments": ""}
+            ],
+            "2018": [
+                {"title": "Document Spanners for Extracting Incomplete Information: Expressiveness and Complexity", "year": "2018", "authors": "Francisco Maturana and Domagoj Vrgoc", "type": "PODS", "pdf-link": "dl.acm.org/doi/10.1145/3196959.3196968", "slides-link": "", "comments": ""},
+                {"title": "Constant Delay Algorithms for Regular Document Spanners", "year": "2018", "authors": "Fernando Florenzano, Martín Ugarte, Stijn Vansummeren and Domagoj Vrgoc", "type": "PODS", "pdf-link": "dl.acm.org/doi/10.1145/3196959.3196987", "slides-link": "", "comments": ""},
+                {"title": "Pumping Lemmas for Weighted Automata", "year": "2018", "authors": "Filip Mazowiecki", "type": "STACS", "pdf-link": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.STACS.2018.50", "slides-link": "", "comments": ""}
+            ],
+            "2017": [
+                {"title": "Probabilistic Automata of Bounded Ambiguity", "year": "2017", "authors": "Nathanaël Fijalkow and James Worrell", "type": "CONCUR", "pdf-link": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CONCUR.2017.19", "slides-link": "", "comments": ""},
+                {"title": "Descriptive Complexity for counting complexity classes", "year": "2017", "authors": "Marcelo Arenas and Martin Muñoz", "type": "LICS", "pdf-link": "ieeexplore.ieee.org/document/8005150/", "slides-link": "", "comments": ""}
+            ],
+            "2016": [
+                {"title": "Querying Wikidata: Comparing SPARQL, Relational and Graph Databases", "year": "2016", "authors": "Daniel Hernández, Aidan Hogan, Carlos Rojas and Enzo Zerega", "type": "ISWC", "pdf-link": "link.springer.com/10.1007/978-3-319-46547-0_10", "slides-link": "", "comments": ""},
+                {"title": "Copyless Cost-Register Automata: Structure, Expressiveness, and Closure Properties", "year": "2016", "authors": "Filip Mazowiecki", "type": "STACS", "pdf-link": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.STACS.2016.53", "slides-link": "", "comments": ""}
+            ],
+            "2015": [
+                {"title": "Maximal Partition Logic: Towards a Logical Characterization of Copyless Cost Register Automata", "year": "2015", "authors": "Filip Mazowiecki", "type": "CSL", "pdf-link": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CSL.2015.144", "slides-link": "", "comments": ""}
+            ],
+            "2013": [
+                {"title": "Which DTDs are streaming bounded repairable?", "year": "2013", "authors": "Pierre Bourhis and Gabriele Puppis", "type": "ICDT", "pdf-link": "dl.acm.org/doi/10.1145/2448496.2448505", "slides-link": "", "comments": ""},
+                {"title": "Quantitative Monadic Second-Order Logic", "year": "2013", "authors": "Stephan Kreutzer", "type": "LICS", "pdf-link": "ieeexplore.ieee.org/document/6571542/", "slides-link": "", "comments": ""}
+            ],
+            "2012": [
+                {"title": "Bounded repairability for regular tree languages", "year": "2012", "authors": "Gabriele Puppis and Slawek Staworko", "type": "ICDT", "pdf-link": "dl.acm.org/doi/10.1145/2274576.2274593", "slides-link": "", "comments": ""}
+            ],
+            "2011": [
+                {"title": "The Cost of Traveling between Languages", "year": "2011", "authors": "Michael Benedikt and Gabriele Puppis", "type": "ICALP", "pdf-link": "", "slides-link": "", "comments": ""},
+                {"title": "Regular Repair of Specifications", "year": "2011", "authors": "Michael Benedikt and Gabriele Puppis", "type": "LICS", "pdf-link": "ieeexplore.ieee.org/document/5970229/", "slides-link": "", "comments": ""}
+            ],
+            "2010": [
+                {"title": "Foundations of schema mapping management", "year": "2010", "authors": "Marcelo Arenas, Jorge Pérez and Juan Reutter", "type": "PODS", "pdf-link": "dl.acm.org/doi/10.1145/1807085.1807116", "slides-link": "", "comments": ""}
+            ],
+            "2008": [
+                {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "authors": "Marcelo Arenas and Jorge Pérez", "type": "PODS", "pdf-link": "dl.acm.org/doi/10.1145/1376916.1376920", "slides-link": "", "comments": ""}
+            ]
     },
     "journal": {
         "2026": [
-            {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2008", "authors": "Marcelo Arenas and Jorge Pérez", "type": "TODS", "pdf-link":"", "slides-link": "", "comments": ""}
+            {"title": "Enumeration and updates for conjunctive linear algebra queries through expressibility", "year": "2026", "authors": "Thomas Muñoz and Stijn Vansummeren", "type": "LMCS", "pdf-link": "https://lmcs.episciences.org/17216", "slides-link": "", "comments": ""}
+        ],
+        "2025": [
+            {"title": "Constant-delay enumeration for SLP-compressed documents", "year": "2025", "authors": "Martin Muñoz", "type": "LMCS", "pdf-link": "https://lmcs.episciences.org/15275", "slides-link": "", "comments": ""},
+            {"title": "Query Answering Under Volume-Based Diversity Functions", "year": "2025", "authors": "Marcelo Arenas, Timo Camillo Merkl and Reinhard Pichler", "type": "PACMMOD", "pdf-link": "dl.acm.org/doi/10.1145/3767717", "slides-link": "", "comments": ""},
+            {"title": "Complex Event Recognition under Time Constraints: Towards a Formal Framework for Efficient Query Evaluation", "year": "2025", "authors": "Julián García", "type": "PACMMOD", "pdf-link": "dl.acm.org/doi/10.1145/3725231", "slides-link": "", "comments": ""}
+        ],
+        "2024": [
+            {"title": "Towards Tractability of the Diversity of Query Answers: Ultrametrics to the Rescue", "year": "2024", "authors": "Marcelo Arenas, Timo Camillo Merkl and Reinhard Pichler", "type": "PACMMOD", "pdf-link": "ldl.acm.org/doi/10.1145/3695833", "slides-link": "", "comments": ""},
+            {"title": "Complex Event Recognition meets Hierarchical Conjunctive Queries", "year": "2024", "authors": "Dante Pinto", "type": "PACMMOD", "pdf-link": "dl.acm.org/doi/10.1145/3695834", "slides-link": "", "comments": ""},
+            {"title": "A Family of Centrality Measures for Graph Data Based on Subgraphs", "year": "2024", "authors": "Sebastián Bugedo and Jorge Salas", "type": "ACM TODS", "pdf-link": "dl.acm.org/doi/10.1145/3649134", "slides-link": "", "comments": ""},
+            {"title": "Streaming Enumeration on Nested Documents", "year": "2024", "authors": "Martin Muñoz", "type": "ACM TODS", "pdf-link": "dl.acm.org/doi/10.1145/3701557", "slides-link": "", "comments": ""}
+        ],
+        "2023": [
+            {"title": "MillenniumDB: An Open-Source Graph Database System", "year": "2023", "authors": "Domagoj Vrgoc, Carlos Rojas, Renzo Angles, Marcelo Arenas, Diego Arroyuelo, Carlos Buil-Aranda, Aidan Hogan, Gonzalo Navarro, and Juan Romero", "type": "Data Intelligence", "pdf-link": "direct.mit.edu/dint/article/5/3/560/117375/MillenniumDB-An-Open-Source-Graph-Database-System", "slides-link": "", "comments": ""},
+            {"title": "REmatch: a novel regex engine for finding all matches", "year": "2023", "authors": "Nicolás Van Sint Jan and Domagoj Vrgoc", "type": "PVLDB", "pdf-link": "https://www.vldb.org/pvldb/vol16/p2792-vrgoc.pdf", "slides-link": "", "comments": ""}
+        ],
+        "2022": [
+            {"title": "Dynamic Data Structures for Timed Automata Acceptance", "year": "2022", "authors": "Alejandro Grez, Filip Mazowiecki, Michal Pilipczuk and Gabriele Puppis", "type": "Algorithmica", "pdf-link": "link.springer.com/10.1007/s00453-022-01025-8", "slides-link": "", "comments": ""},
+            {"title": "Probabilistic automata of bounded ambiguity", "year": "2022", "authors": "Nathanaël Fijalkow and James Worrell", "type": "Information and Computation", "pdf-link": "sciencedirect.com/science/article/pii/S089054012030136X", "slides-link": "", "comments": ""},
+            {"title": "CORE: a COmplex event Recognition Engine", "year": "2022", "authors": "Marco Bucchi, Alejandro Grez, Andrés Quintana and Stijn Vansummeren", "type": "PVLDB", "pdf-link": "https://www.vldb.org/pvldb/vol15/p1951-riveros.pdf", "slides-link": "", "comments": ""},
+            {"title": "Counting the Answers to a Query", "year": "2022", "authors": "Marcelo Arenas, Luis Alberto Croquevielle and Rajesh Jayaram", "type": "SIGMOD Record", "pdf-link": "dl.acm.org/doi/10.1145/3572751.3572753", "slides-link": "", "comments": ""}
+        ],
+        "2021": [
+            {"title": "#NFA Admits an FPRAS: Efficient Enumeration, Counting, and Uniform Generation for Logspace Classes", "year": "2021", "authors": "Marcelo Arenas, Luis Alberto Croquevielle and Rajesh Jayaram", "type": "JACM", "pdf-link": "dl.acm.org/doi/10.1145/3477045", "slides-link": "", "comments": ""},
+            {"title": "Pumping lemmas for weighted automata", "year": "2021", "authors": "Agnishom Chattopadhyay, Filip Mazowiecki and Anca Muscholl", "type": "LMCS", "pdf-link": "https://lmcs.episciences.org/7692", "slides-link": "", "comments": ""},
+            {"title": "Matrix Query Languages", "year": "2021", "authors": "Floris Geerts, Thomas Muñoz,, Jan Van den Bussche nad Domagoj Vrgoc", "type": "SIGMOD Record", "pdf-link": "dl.acm.org/doi/10.1145/3503780.3503782", "slides-link": "", "comments": ""},
+            {"title": "A Formal Framework for Complex Event Recognition", "year": "2021", "authors": "Alejandro Grez, Martín Ugarte and Stijn Vansummeren", "type": "ACM TODS", "pdf-link": "dl.acm.org/doi/10.1145/3485463", "slides-link": "", "comments": ""}
+        ],
+        "2020": [
+            {"title": "Descriptive Complexity for Counting Complexity Classes", "year": "2020", "authors": "Marcelo Arenas and  Martin Muñoz", "type": "LMCS", "pdf-link": "https://lmcs.episciences.org/6079", "slides-link": "", "comments": ""},
+            {"title": "Efficient Logspace Classes for Enumeration, Counting, and Uniform Generation", "year": "2020", "authors": "Marcelo Arenas, Luis Alberto Croquevielle and Rajesh Jayaram", "type": "SIGMOD Record", "pdf-link": "dl.acm.org/doi/10.1145/3422648.3422661", "slides-link": "", "comments": ""},
+            {"title": "Efficient Enumeration Algorithms for Regular Document Spanners", "year": "2020", "authors": "Fernando Florenzano, Martín Ugarte, Stijn Vansummeren and Domagoj Vrgoc", "type": "ACM TODS", "pdf-link": "dl.acm.org/doi/10.1145/3351451", "slides-link": "", "comments": ""}
+        ],
+        "2019": [
+            {"title": "Copyless cost-register automata: Structure, expressiveness, and closure properties", "year": "2019", "authors": "Filip Mazowiecki", "type": "JCSS", "pdf-link": "sciencedirect.com/science/article/pii/S0022000018307815", "slides-link": "", "comments": ""}
+        ],
+        "2016": [
+            {"title": "A framework for annotating CSV-like data", "year": "2016", "authors": "Marcelo Arenas and Francisco Maturana", "type": "PVLDB", "pdf-link": "https://www.vldb.org/pvldb/vol9/p876-arenas.pdf", "slides-link": "", "comments": ""},
+            {"title": "Bounded Repairability for Regular Tree Languages", "year": "2016", "authors": "Pierre Bourhis, Gabriele Puppis and Slawek Staworko", "type": "ACM TODS", "pdf-link": "dl.acm.org/doi/10.1145/2898995", "slides-link": "", "comments": ""}
+        ],
+        "2015": [
+            {"title": "Which XML Schemas are Streaming Bounded Repairable?", "year": "2015", "authors": "Pierre Bourhis and Gabriele Puppis", "type": "Theoretical Computer Science", "pdf-link": "https://link.springer.com/10.1007/s00224-015-9611-y", "slides-link": "", "comments": ""}
+        ],
+        "2014": [
+            {"title": "The per-character cost of repairing word languages", "year": "2014", "authors": "Michael Benedikt and Gabriele Puppis", "type": "Theoretical Computer Science", "pdf-link": "sciencedirect.com/science/article/pii/S0304397514003132", "slides-link": "", "comments": ""}
+        ],
+        "2013": [
+            {"title": "The language of plain SO-tgds: Composition, inversion and structural properties", "year": "2013", "authors": "Marcelo Arenas, Jorge Pérez and Juan Reutter", "type": "JCSS", "pdf-link": "sciencedirect.com/science/article/pii/S0022000013000123", "slides-link": "", "comments": ""},
+            {"title": "Bounded repairability of word languages", "year": "2013", "authors": "Michael Benedikt and Gabriele Puppis", "type": "JCSS", "pdf-link": "sciencedirect.com/science/article/pii/S0022000013001104", "slides-link": "", "comments": ""}
+        ],
+        "2012": [
+            {"title": "Query language-based inverses of schema mappings: semantics, computation, and closure properties", "year": "2012", "authors": "Marcelo Arenas, Jorge Pérez and Juan Reutter", "type": "VLDB", "pdf-link": "https://link.springer.com/10.1007/s00778-012-0272-z", "slides-link": "", "comments": ""}
+        ],
+        "2009": [
+            {"title": "Inverting Schema Mappings: Bridging the Gap between Theory and Practice", "year": "2009", "authors": "Marcelo Arenas, Jorge Pérez and Juan Reutter", "type": "PVLDB", "pdf-link": "https://www.vldb.org/pvldb/vol2/vldb09-775.pdf", "slides-link": "", "comments": ""},
+            {"title": "Composition and inversion of schema mappings", "year": "2009", "authors": "Marcelo Arenas, Jorge Pérez and Juan Reutter", "type": "SIGMOD Record", "pdf-link": "dl.acm.org/doi/10.1145/1815933.1815938", "slides-link": "", "comments": ""},
+            {"title": "The Recovery of a schema mapping: Bringing exchanged data back", "year": "2009", "authors": "Marcelo Arenas and Jorge Pérez", "type": "TODS", "pdf-link": "dl.acm.org/doi/10.1145/1620585.1620589", "slides-link": "", "comments": ""}
         ]
     }
 }

@@ -41,7 +41,6 @@ export default function HomePage() {
         <>
             <div className="mt-10">
                 <div className="md:grid md:grid-cols-2 ">
-                    {/* <Box title='Cristian Riveros' list={Description['who-i-am'][0]} color='bg-white' border_shape='rounded-xl'/> */}
                     <div className={`m-2 bg-neutral-primary-soft flex flex-col p-5 border border-transparent justify-start bg-white rounded-xl`}>
                         <div className="pb-2 text-5xl text-left font-medium text-gray-600">
                             Cristian Riveros
@@ -53,7 +52,6 @@ export default function HomePage() {
                             </div>
                         </div>
                     </div>
-                    {/* <Box title='Personal information' list={Description['information'][0]} link={Description['information'][1]} color='bg-gray-1' border_shape='rounded-xl'/> */}
                     <div className={`m-2 bg-neutral-primary-soft flex flex-col p-5 border border-transparent content-around justify-start content-between bg-gray-1 rounded-xl`}>
                         <div 
                         className="text-2xl text-left font-medium text-gray-600"
@@ -68,9 +66,6 @@ export default function HomePage() {
                                 {parser(Description['information'][0]['address'])}
                             </div>
                             <div className="text-body text-left my-3 text-blue-1">
-                                {/* <p className="text-body text-left my-3">
-                                    {Description['information'][0]['phone']}
-                                </p> */}
                                 <a href={`tel:${Description['information'][0]['phone']}`}>{Description['information'][0]['phone']}</a>
                             </div>
                             <div className="text-left text-body text-blue-1 my-3">
@@ -99,7 +94,7 @@ export default function HomePage() {
                     </div>
                 </div>
                 <div className="md:grid md:grid-cols-2 ">
-                    {<Box title='Research Areas' list={Topics['information'][0]} color='bg-blue-3' border_shape='rounded-xl'/>}
+                    {<Box title='Research Areas' list={Topics['information'][0]} link={} color='bg-blue-3' border_shape='rounded-xl'/>}
                     {listToBoxes(Topics['research-topics'], 'bg-blue-3', 'black')}
                     {/* {listToBoxes(Projects['projects-topics'], 'bg-gray-1')} */}
                 </div>
