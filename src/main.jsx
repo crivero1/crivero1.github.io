@@ -10,9 +10,9 @@ import HomePage from './pages/home.jsx';
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <App />
-  </BrowserRouter>,
+  </BrowserRouter>
+  // <HashRouter basename='https://crivero1.github.io/#'>
   // <HashRouter>
-  // <HashRouter basename='https://crivero1.github.io/'>
   //   <App />
   // </HashRouter>
 );

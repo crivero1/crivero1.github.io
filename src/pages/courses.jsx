@@ -14,7 +14,7 @@ function listToBoxes(listOfParams){
                 <BoxCourses key={i} course={elem} 
                 color='bg-blue-3'
                 // bold_color={bold_color}
-                 border_shape=''/>
+                border_shape=''/>
                 )
             }
             )}
@@ -26,13 +26,13 @@ export default function CoursesPage() {
     // console.log(Courses);
     return(
         <>
-        <div className="mt-10">
+        <div className="mt-10 min-w-xl">
             <div className='border-b text-left text-5xl mb-2 text-gray-600'>
                 Courses
             </div>
-            <div className="md:grid ">
-                {/* <BoxCourses student={Courses['phd'][0]} color='bg-gray-1'/> */}
-                {listToBoxes(Courses['courses'])}
+            <div className="flex min-w-xl">
+                <BoxCourses courses={Courses} color='bg-blue-3' bold_color='gray-1'/>
+                {/* {listToBoxes(Courses['courses'])} */}
                 {/* {listToBoxes(Courses['master'])} */}
             </div>
         </div>
