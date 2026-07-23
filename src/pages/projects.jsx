@@ -23,7 +23,7 @@ export default function ProjectsPage() {
     // console.log(Projects);
     return(
         <>
-        <div className="mt-10">
+        <div className="mt-10 size-full">
             <div className='border-b text-left text-5xl mb-2 text-gray-600'>
                 Projects
             </div>

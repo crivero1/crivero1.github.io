@@ -1,3 +1,4 @@
+import Links from '../information/links.json';
 import Description from '../information/general_description.json';
 import Topics from '../information/research-section.json'
 import Projects from '../information/projects-section.json'
@@ -95,15 +96,15 @@ export default function HomePage() {
                 </div>
                 <div className="md:grid md:grid-cols-2 ">
                     {<Box title='Research Areas' list={Topics['information'][0]} color='bg-blue-3' border_shape='rounded-xl'/>}
-                    {listToBoxes(Topics['research-topics'], 'bg-blue-3', 'black', '/publications')}
+                    {listToBoxes(Topics['research-topics'], 'bg-blue-3', 'black', Links['publications'])}
                     {/* {listToBoxes(Projects['projects-topics'], 'bg-gray-1')} */}
                 </div>
                 <div className="md:grid md:grid-cols-2 ">
                     {<Box title='Projects' list={Projects['information'][0]} color='bg-gray-1' border_shape='rounded-xl'/>}
-                    {listToBoxes(Projects['projects-topics'], 'bg-gray-1', 'text-blue-1', '/projects')}
+                    {listToBoxes(Projects['projects-topics'], 'bg-gray-1', 'text-blue-1', Links['projects'])}
                 </div>
                 <div className="md:grid md:grid-cols-2 ">
-                    {listToBoxes(Courses['courses'], '', 'text-blue-1', '/courses')}
+                    {listToBoxes(Courses['courses'], '', 'text-blue-1', Links['courses'])}
                 </div>
             </div>
         </>

@@ -1,6 +1,6 @@
 function byKey(obj, boldTextColor){
     let listKeys = Object.keys(obj);
-    listKeys.reverse();
+    // listKeys.reverse();
     // console.log(listKeys)
     return(
         <>

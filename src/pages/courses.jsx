@@ -26,8 +26,8 @@ export default function CoursesPage() {
     // console.log(Courses);
     return(
         <>
-        <div className="mt-10 w-full flex flex-col">
-            <div className='border-b text-left text-5xl mb-2 text-gray-600'>
+        <div className="mt-10 w-auto">
+            <div className='border-b text-left text-5xl mb-2 text-gray-600 w-9/10'>
                 Courses
             </div>
             <div className="flex">

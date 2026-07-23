@@ -1,10 +1,11 @@
 import { useState } from 'react';
+import { NavLink, Link } from "react-router";
+import Links from '../information/links.json';
 
 export default function Navbar () {
     const [hideMenu, setHideMenu] = useState(true);
     return (
     <>
-        {/* <nav className="bg-neutral-secondary-soft fixed w-full z-20 top-0 start-0 border-b border-default"> */}
         <nav className='fixed w-full z-20 top-0 start-0 bg-gray-1 mx-0 border-default'>
             <div className="flex flex-wrap justify-end mx-0 p-0">
                 <button  
@@ -23,27 +24,27 @@ export default function Navbar () {
             >
                 <ul className={'bg-gray-1 w-3/16 flex flex-col font-medium m-2 pt-0 space-y-2 ml-4' + (hideMenu ? ' hidden' : '')}>
                     <li>
-                        <a href="/" className="block py-2 px-3 hover:text-white bg-brand rounded ">Home</a>
+                        {/* <a href={links['home']} className="block py-2 px-3 hover:text-white bg-brand rounded ">Home</a> */}
+                        <Link to={Links['home']} className="block py-2 px-3 hover:text-white bg-brand rounded ">Home</Link>
                     </li>
                     <li>
-                        <a href="/publications" className="block py-2 px-3 text-heading rounded hover:text-white ">Publications</a>
+                        <a href={Links['publications']} className="block py-2 px-3 text-heading rounded hover:text-white ">Publications</a>
                     </li>
                     <li>
-                        <a href="/students" className="block py-2 px-3 text-heading rounded hover:text-white ">Students</a>
+                        <a href={Links['students']} className="block py-2 px-3 text-heading rounded hover:text-white ">Students</a>
                     </li>
                     <li>
-                        <a href="/projects" className="block py-2 px-3 text-heading rounded hover:text-white ">Projects</a>
+                        <a href={Links['projects']} className="block py-2 px-3 text-heading rounded hover:text-white ">Projects</a>
                     </li>
                     <li>
-                        <a href="/courses" className="block py-2 px-3 text-heading rounded hover:text-white ">Courses</a>
+                        <a href={Links['courses']} className="block py-2 px-3 text-heading rounded hover:text-white ">Courses</a>
                     </li>
                     <li>
-                        <a href="/talks" className="block py-2 pb-4 px-3 text-heading rounded hover:text-white ">Talks</a>
+                        <a href={Links['talks']} className="block py-2 pb-4 px-3 text-heading rounded hover:text-white ">Talks</a>
                     </li>
                 </ul>
             </div>
-        </nav>
-        
+        </nav>   
     </>
     )
 }
