@@ -24,23 +24,28 @@ export default function Navbar () {
             >
                 <ul className={'bg-gray-1 w-3/16 flex flex-col font-medium m-2 pt-0 space-y-2 ml-4' + (hideMenu ? ' hidden' : '')}>
                     <li>
-                        {/* <a href={links['home']} className="block py-2 px-3 hover:text-white bg-brand rounded ">Home</a> */}
-                        <Link to={Links['home']} className="block py-2 px-3 hover:text-white bg-brand rounded ">Home</Link>
+                        <a href={Links['home']} className="block py-2 px-3 hover:text-white bg-brand rounded ">Home</a>
+                        {/* <Link to={Links['home']} className={'block py-2 px-3 hover:text-white bg-brand rounded' + (hideMenu ? ' hidden' : '')}>Home</Link> */}
                     </li>
                     <li>
                         <a href={Links['publications']} className="block py-2 px-3 text-heading rounded hover:text-white ">Publications</a>
+                        {/* <Link to={Links['publications']} className="block py-2 px-3 text-heading rounded hover:text-white ">Publications</Link> */}
                     </li>
                     <li>
                         <a href={Links['students']} className="block py-2 px-3 text-heading rounded hover:text-white ">Students</a>
+                        {/* <Link to={Links['students']} className="block py-2 px-3 text-heading rounded hover:text-white ">Students</Link> */}
                     </li>
                     <li>
                         <a href={Links['projects']} className="block py-2 px-3 text-heading rounded hover:text-white ">Projects</a>
+                        {/* <Link to={Links['projects']} className="block py-2 px-3 text-heading rounded hover:text-white ">Projects</Link> */}
                     </li>
                     <li>
                         <a href={Links['courses']} className="block py-2 px-3 text-heading rounded hover:text-white ">Courses</a>
+                        {/* <Link to={Links['courses']} className="block py-2 px-3 text-heading rounded hover:text-white ">Courses</Link> */}
                     </li>
                     <li>
                         <a href={Links['talks']} className="block py-2 pb-4 px-3 text-heading rounded hover:text-white ">Talks</a>
+                        {/* <Link to={Links['talks']} className="block py-2 pb-4 px-3 text-heading rounded hover:text-white ">Talks</Link> */}
                     </li>
                 </ul>
             </div>

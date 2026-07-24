@@ -21,7 +21,7 @@ function listToBoxes(listOfParams){
                 let color = elem['active']=='No' ? 'bg-gray-1' : 'bg-blue-3';
                 let bold_color = elem['active']=='No' ? 'text-blue-1' : 'text-gray-1';
                 return (
-                <BoxStudents key={i} student={elem} color={color} bold_color={bold_color} border_shape=''/>
+                <BoxStudents key={i} student={elem} color={color} bold_color={bold_color} border_shape='rounded-xl'/>
                 )
             }
             )}

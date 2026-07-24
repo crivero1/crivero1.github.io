@@ -8,8 +8,8 @@ function byKey(obj, boldTextColor){
                 <p className="border-b text-left">
                     {key}
                 </p>
-                <div className={`text-justify mt-2 flex-1 ${boldTextColor}`}>
-                    {listToP(obj[key])}
+                <div className={`text-justify mt-2 flex-1`}>
+                    {listToP(obj[key], boldTextColor)}
                 </div>
             </div>
         ))}
@@ -17,7 +17,7 @@ function byKey(obj, boldTextColor){
     )
 }
 
-function listToP(listToParse){
+function listToP(listToParse, bold_color){
     // console.log(listToParse);
     return (
         <>
@@ -30,7 +30,7 @@ function listToP(listToParse){
                         </svg>
                     </div>
                     <p className="pl-3">
-                        <span className="italic">{line["title"]}</span>. Together with {line["authors"]}. In {line["type"]} {line["year"]}.
+                        <span className={`italic font-semibold`}>{line["title"]}</span>. Together with {line["authors"]}. In {line["type"]} {line["year"]}.
                     </p>
                 </div>
             </div>

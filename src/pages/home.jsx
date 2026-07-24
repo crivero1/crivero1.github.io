@@ -21,14 +21,14 @@ function parser(text){
     )
 }
 
-function listToBoxes(listOfParams, color, bold_color, link){
+function listToBoxes(listOfParams, color, bold_color, link, border_shape){
     // console.log(listOfParams);
     return (
         <>
             {listOfParams.map((elem, i) => 
             // {
                 (
-                <BoxResearch key={i} obj={elem} color={color} bold_color={bold_color} border_shape='' link={link} />
+                <BoxResearch key={i} obj={elem} color={color} bold_color={bold_color} border_shape={border_shape} link={link} />
             )
             // , console.log(elem)
             // }
@@ -95,16 +95,17 @@ export default function HomePage() {
                     </div>
                 </div>
                 <div className="md:grid md:grid-cols-2 ">
-                    {<Box title='Research Areas' list={Topics['information'][0]} color='bg-blue-3' border_shape='rounded-xl'/>}
-                    {listToBoxes(Topics['research-topics'], 'bg-blue-3', 'black', Links['publications'])}
+                    {<Box title='Research Areas' list={Topics['information'][0]} color='' border_shape=''/>}
+                    {listToBoxes(Topics['research-topics'], '', 'text-blue-1', Links['publications'], 'rounded-xl')}
                     {/* {listToBoxes(Projects['projects-topics'], 'bg-gray-1')} */}
                 </div>
                 <div className="md:grid md:grid-cols-2 ">
-                    {<Box title='Projects' list={Projects['information'][0]} color='bg-gray-1' border_shape='rounded-xl'/>}
-                    {listToBoxes(Projects['projects-topics'], 'bg-gray-1', 'text-blue-1', Links['projects'])}
+                    {<Box title='Projects' list={Projects['information'][0]} color='bg-gray-1' border_shape=''/>}
+                    {listToBoxes(Projects['projects-topics'], 'bg-gray-1', 'text-blue-1', Links['projects'], 'rounded-xl')}
                 </div>
                 <div className="md:grid md:grid-cols-2 ">
-                    {listToBoxes(Courses['courses'], '', 'text-blue-1', Links['courses'])}
+                    {/* {<Box title='Projects' list={'Teaching'} color='bg-gray-1' border_shape='rounded-xl'/>} */}
+                    {listToBoxes(Courses['courses'], 'bg-blue-3', 'text-gray-1', Links['courses'], 'rounded-xl')}
                 </div>
             </div>
         </>

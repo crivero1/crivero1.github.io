@@ -31,7 +31,7 @@ export default function CoursesPage() {
                 Courses
             </div>
             <div className="flex">
-                <BoxCourses courses={Courses} color='bg-blue-3' bold_color='gray-1'/>
+                <BoxCourses courses={Courses} color='bg-gray-1' bold_color='gray-1' border_shape='rounded-xl'/>
                 {/* {listToBoxes(Courses['courses'])} */}
                 {/* {listToBoxes(Courses['master'])} */}
             </div>
