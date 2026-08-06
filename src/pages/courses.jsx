@@ -1,27 +1,6 @@
 import Courses from '../information/courses.json';
 import BoxCourses from '../components/boxCourses';
 
-// function listToBoxes(listOfParams){
-//     console.log(listOfParams);
-//     return (
-//         <>
-//             {listOfParams.map((elem, i) => 
-//             {   
-//                 // console.log(elem); 
-//                 // let color = elem['active']=='No' ? 'bg-gray-1' : 'bg-blue-3';
-//                 // let bold_color = elem['active']=='No' ? 'text-blue-1' : 'text-gray-1';
-//                 return (
-//                 <BoxCourses key={i} course={elem} 
-//                 color='bg-blue-3'
-//                 // bold_color={bold_color}
-//                 border_shape=''/>
-//                 )
-//             }
-//             )}
-//         </>
-//     )
-// }
-
 export default function CoursesPage() {
     // console.log(Courses);
     return(
@@ -31,9 +10,7 @@ export default function CoursesPage() {
                 Courses
             </div>
             <div className="flex">
-                <BoxCourses courses={Courses} color='bg-gray-1' bold_color='gray-1' border_shape='rounded-xl'/>
-                {/* {listToBoxes(Courses['courses'])} */}
-                {/* {listToBoxes(Courses['master'])} */}
+                <BoxCourses courses={Courses} color='' bold_color='gray-1' border_shape='rounded-xl' border_color='border-gray-300' />
             </div>
         </div>
         </>

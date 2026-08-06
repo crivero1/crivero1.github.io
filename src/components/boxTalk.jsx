@@ -1,16 +1,49 @@
-export default function BoxTalk( {talk, color, border_shape, bold_color} ) {
-    console.log(talk)
+function byKey(obj, boldTextColor){
+    let listKeys = Object.keys(obj);
+    listKeys.reverse();
+    return(
+        <>
+        {listKeys.map((key, index) => (
+            <div key={index}>
+                <p className="border-b text-left">
+                    {key}
+                </p>
+                <div className={`text-justify mt-2 flex-1`}>
+                    {listToP(obj[key], boldTextColor)}
+                </div>
+            </div>
+        ))}
+        </>
+    )
+}
+
+function listToP(listToParse, bold_color){
+    // console.log(listToParse);
     return (
-        <div className={`m-2 flex flex-col p-5 content-around justify-start content-between ${color} ${border_shape}`}>
-            <div className="pb-2 text-2xl text-left font-medium text-gray-600">
-                {talk["title"]}
+        <>
+        {listToParse.map((line, index) => (
+            <div key={index} className="text-left text-body my-4">
+                <div className="flex">
+                    <div className="text-left text-body my-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="currentColor" className="w-4 h-4">
+                        <path fillRule="evenodd" d="M4.5 7.5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-9a3 3 0 0 1-3-3v-9Z" clipRule="evenodd" />
+                        </svg>
+                    </div>
+                    <p className="pl-3">
+                        <span className={`italic font-semibold`}>{line["title"]}</span>. Talk given at {line["type"]}, {line["place"]}, {line["year"]}. <a href={line["slides"]} className={`${bold_color} font-semibold`}>{line["slides"] != "" ? '(slides)' : ''}</a>
+                    </p>
+                </div>
             </div>
-            <div className={`text-justify text-lg mt-2 flex-1 ${bold_color}`}>
-                {talk["date"]}
-            </div>
-            <div className='text-justify mt-2 flex-1'>
-                {talk["description"]}
-            </div>
+        ))}
+        </>
+    )
+}
+
+export default function BoxTalks( {talks, color, border_shape, border_color, bold_color} ) {
+    // console.log(talks)
+    return (
+        <div className={`m-2 flex flex-col p-5 content-around justify-start content-between ${color} ${border_shape} ${border_shape}`}>
+            {byKey(talks, bold_color)}
         </div>
     )
 }

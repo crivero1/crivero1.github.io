@@ -51,10 +51,10 @@ function listToP(listToParse){
     )
 }
 
-export default function BoxCourses( {courses, color, border_shape, bold_color} ) {
+export default function BoxCourses( {courses, color, border_shape, border_color, bold_color} ) {
     // console.log(courses)
     return (
-        <div className={`m-2 flex flex-col p-5 justify-start ${color} ${border_shape}`}>
+        <div className={`m-2 flex flex-col p-5 justify-start border ${color} ${border_shape} ${border_color}`}>
             {/* <div className="pb-2 text-2xl text-left font-medium text-gray-600">
                 {course["title"]}
             </div>

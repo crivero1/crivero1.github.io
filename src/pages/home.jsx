@@ -13,22 +13,22 @@ function parser(text){
     return (
         <>
         {text.map((line, i) => (
-              <p key={i} className="text-left text-body">
-                  {line}
-              </p>
-          ))}
+                <p key={i} className="text-left text-body">
+                    {line}
+                </p>
+            ))}
         </>
     )
 }
 
-function listToBoxes(listOfParams, color, bold_color, link, border_shape){
+function listToBoxes(listOfParams, color, bold_color, link, border_shape, border_color){
     // console.log(listOfParams);
     return (
         <>
             {listOfParams.map((elem, i) => 
             // {
                 (
-                <BoxResearch key={i} obj={elem} color={color} bold_color={bold_color} border_shape={border_shape} link={link} />
+                <BoxResearch key={i} obj={elem} color={color} bold_color={bold_color} border_shape={border_shape} border_color={border_color} link={link} />
             )
             // , console.log(elem)
             // }
@@ -42,7 +42,7 @@ export default function HomePage() {
         <>
             <div className="mt-10">
                 <div className="md:grid md:grid-cols-2 ">
-                    <div className={`m-2 bg-neutral-primary-soft flex flex-col p-5 border border-transparent justify-start bg-white rounded-xl`}>
+                    <div className={`m-2 bg-neutral-primary-soft flex flex-col p-5 border border-gray-300 justify-start bg-white rounded-xl`}>
                         <div className="pb-2 text-5xl text-left font-medium text-gray-600">
                             Cristian Riveros
                         </div>
@@ -95,17 +95,17 @@ export default function HomePage() {
                     </div>
                 </div>
                 <div className="md:grid md:grid-cols-2 ">
-                    {<Box title='Research Areas' list={Topics['information'][0]} color='' border_shape=''/>}
-                    {listToBoxes(Topics['research-topics'], '', 'text-blue-1', Links['publications'], 'rounded-xl')}
+                    {<Box title='Research Areas' list={Topics['information'][0]} color='' border_shape='' border_color='border-gray-300' />}
+                    {listToBoxes(Topics['research-topics'], '', 'text-blue-1', Links['publications'], 'rounded-xl', 'border-gray-300')}
                     {/* {listToBoxes(Projects['projects-topics'], 'bg-gray-1')} */}
                 </div>
                 <div className="md:grid md:grid-cols-2 ">
-                    {<Box title='Projects' list={Projects['information'][0]} color='bg-gray-1' border_shape=''/>}
-                    {listToBoxes(Projects['projects-topics'], 'bg-gray-1', 'text-blue-1', Links['projects'], 'rounded-xl')}
+                    {<Box title='Projects' list={Projects['information'][0]} color='bg-gray-1' border_shape='' border_color='border-transparent' />}
+                    {listToBoxes(Projects['projects-topics'], 'bg-gray-1', 'text-blue-1', Links['projects'], 'rounded-xl', 'border-transparent')}
                 </div>
                 <div className="md:grid md:grid-cols-2 ">
-                    {/* {<Box title='Projects' list={'Teaching'} color='bg-gray-1' border_shape='rounded-xl'/>} */}
-                    {listToBoxes(Courses['courses'], 'bg-blue-3', 'text-gray-1', Links['courses'], 'rounded-xl')}
+                    {<Box title='Teaching' list={Projects['information'][0]} color='bg-blue-3' border_shape='' border_color='border-transparent' />}
+                    {listToBoxes(Courses['courses'], 'bg-blue-3', 'text-gray-1', Links['courses'], 'rounded-xl', 'border-transparent')}
                 </div>
             </div>
         </>

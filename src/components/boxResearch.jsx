@@ -68,10 +68,10 @@ function objToParser(objToParse, index){
     )
 }
 
-export default function BoxResearch( {obj, link, color, border_shape, bold_color, border} ) {
+export default function BoxResearch( {obj, link, color, border_shape, bold_color, border_color} ) {
   console.log(link)
   return (
-    <div className={`m-2 bg-neutral-primary-soft flex flex-col p-5 border content-around justify-start content-between ${color} ${border_shape} ${border}`}>
+    <div className={`m-2 bg-neutral-primary-soft flex flex-col p-5 border content-around justify-start content-between ${color} ${border_shape} ${border_color}`}>
       <div className="pb-2 text-2xl text-left font-medium text-gray-600">
         {obj["title"]}
       </div>

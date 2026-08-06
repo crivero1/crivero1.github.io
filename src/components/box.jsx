@@ -66,7 +66,7 @@ function links(link, links_list) {
   }
 }
 
-export default function Box( {title, list, link, color, border_shape} ) {
+export default function Box( {title, list, link, color, border_shape, border_color} ) {
   return (
     // <div class="block p-6 items-center border rounded-lg">
     //   <div class="">
@@ -83,7 +83,7 @@ export default function Box( {title, list, link, color, border_shape} ) {
     // </div>
     // <div class="bg-neutral-primary-soft block max-w-sm p-6 border border-default rounded-base shadow-xs hover:bg-neutral-secondary-medium">
     // <div className={`m-2 bg-neutral-primary-soft flex flex-col p-8 border border-gray-100 content-around justify-start content-between ${color} ${border_shape}`}>
-    <div className={`m-2 flex p-5 border border-transparent justify-center items-center ${color} ${border_shape}`}>
+    <div className={`m-2 flex p-5 border justify-center items-center ${color} ${border_shape} ${border_color}`}>
       {/* <h5 class="mb-3 text-2xl font-semibold tracking-tight text-heading leading-8">Noteworthy technology acquisitions 2021</h5> */}
       <div className="pb-2 text-5xl text-center font-medium text-gray-600">
         {title}

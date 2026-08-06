@@ -30,7 +30,7 @@ function listToP(listToParse, bold_color){
                         </svg>
                     </div>
                     <p className="pl-3">
-                        <span className={`italic font-semibold`}>{line["title"]}</span>. Together with {line["authors"]}. In {line["type"]} {line["year"]}.
+                        <span className={`italic font-semibold`}>{line["title"]}</span>. Together with {line["authors"]}. In {line["type"]} {line["year"]}. <a href={line["pdf"]} className={`${bold_color}`}>{line["pdf"] != "" ? '(pdf)' : ''}</a>
                     </p>
                 </div>
             </div>
