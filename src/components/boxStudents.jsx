@@ -1,14 +1,6 @@
 function listToP(listToParse){
-    // console.log(listToParse);
     return (
         <>
-        {/* {listToParse.map((line, index) => (
-            <>
-            <p key={index} className="text-left text-body my-1">
-                {line[0]} {line[1]}
-            </p>
-            </>
-        ))} */}
         <p className="text-left text-body my-1">
             {listToParse.map((line, index) => (
                 <>

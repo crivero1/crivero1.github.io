@@ -51,17 +51,14 @@ function objToParser(objToParse, index){
               {index +1 }. {objToParse["author"]}
             </p> */}
             <div className="flex">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 10" fill="currentColor" className="size-4">
-                <path fillRule="evenodd" d="M4.5 7.5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-9a3 3 0 0 1-3-3v-9Z" clipRule="evenodd" />
-              </svg>
-              {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
-                <path d="M160 96L480 96C515.3 96 544 124.7 544 160L544 480C544 515.3 515.3 544 480 544L160 544C124.7 544 96 515.3 96 480L96 160C96 124.7 124.7 96 160 96z"/>
-              </svg> */}
-              {/* <SquareIcon></SquareIcon> */}
-              {/* {objToParse["author"]} */}
+              <div className="text-left text-body my-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="currentColor" className="size-4">
+                  <path fillRule="evenodd" d="M4.5 7.5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-9a3 3 0 0 1-3-3v-9Z" clipRule="evenodd" />
+                </svg>
+              </div>
               <p className="pl-4">
-              <span className="italic">{objToParse["title"]}</span>. Together with {objToParse["authors"]}. In {objToParse["type"]} {objToParse["year"]}.
-            </p>
+                <span className="italic">{objToParse["title"]}</span>. Together with {objToParse["authors"]}. In {objToParse["type"]} {objToParse["year"]}.
+              </p>
             </div>
           </div>
         </>
@@ -71,16 +68,12 @@ function objToParser(objToParse, index){
 export default function BoxResearch( {obj, link, color, border_shape, bold_color, border_color} ) {
   console.log(link)
   return (
-    <div className={`m-2 bg-neutral-primary-soft flex flex-col p-5 border content-around justify-start content-between ${color} ${border_shape} ${border_color}`}>
+    <div className={`m-2 flex flex-col p-5 border content-around justify-start content-between ${color} ${border_shape} ${border_color}`}>
       <div className="pb-2 text-2xl text-left font-medium text-gray-600">
         {obj["title"]}
       </div>
-      {/* <div className="text-left text-body my-3">
-        {obj['description']}
-      </div> */}
       <div className=''>
         {listToP(obj['important-work'])}
-        {/* {objToP(obj['important-work'])} */}
       </div>
       <div className='text-justify mt-2 flex-1'>
         {obj['description']}

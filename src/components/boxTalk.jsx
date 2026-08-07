@@ -30,7 +30,7 @@ function listToP(listToParse, bold_color){
                         </svg>
                     </div>
                     <p className="pl-3">
-                        <span className={`italic font-semibold`}>{line["title"]}</span>. Talk given at {line["type"]}, {line["place"]}, {line["year"]}. <a href={line["slides"]} className={`${bold_color} font-semibold`}>{line["slides"] != "" ? '(slides)' : ''}</a>
+                        <span className={`italic font-semibold`}>{line["title"]}{line["spanish"] == "Yes" ? ' [in spanish]' : ''}</span>. Talk given at {line["type"]}, {line["place"]}, {line["year"]}. <a href={line["slides"]} className={`${bold_color} font-semibold`}>{line["slides"] != "" ? '(slides)' : ''}</a>
                     </p>
                 </div>
             </div>
@@ -39,10 +39,13 @@ function listToP(listToParse, bold_color){
     )
 }
 
-export default function BoxTalks( {talks, color, border_shape, border_color, bold_color} ) {
+export default function BoxTalks( {talks, title, color, border_shape, border_color, bold_color} ) {
     // console.log(talks)
     return (
-        <div className={`m-2 flex flex-col p-5 content-around justify-start content-between ${color} ${border_shape} ${border_shape}`}>
+        <div className={`m-2 flex flex-col p-5 content-around justify-start content-between border ${color} ${border_shape} ${border_color}`}>
+            <div className="pb-2 text-2xl text-left font-medium text-gray-600">
+                {title}
+            </div>
             {byKey(talks, bold_color)}
         </div>
     )

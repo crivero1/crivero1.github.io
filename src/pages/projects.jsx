@@ -1,8 +1,17 @@
 import Projects from '../information/projects.json';
 import BoxProjects from '../components/boxProjects';
 
+function isActive (a, b) {
+    if (a['active'] == 'Yes') {
+        return -1;
+    } else if (b['active'] == 'Yes') {
+        return 1;
+    } else { return 0 }
+}
+
 function listToBoxes(listOfParams){
     // console.log(listOfParams);
+    listOfParams.sort(isActive);
     return (
         <>
             {listOfParams.map((elem, i) => 

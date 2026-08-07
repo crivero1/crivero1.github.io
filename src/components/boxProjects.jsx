@@ -1,9 +1,12 @@
 export default function BoxProjects( {project, color, border_shape, bold_color} ) {
     // console.log(project)
     return (
-        <div className={`m-2 flex flex-col p-5 content-around justify-start content-between ${color} ${border_shape}`}>
+        <div className={`m-2 flex flex-col p-5 justify-start content-around ${color} ${border_shape}`}>
             <div className="pb-2 text-2xl text-left font-medium text-gray-600">
                 {project["title"]}
+            </div>
+            <div className={`text-justify font-semibold text-lg mt-2 ${bold_color}`}>
+                {project["period"]}
             </div>
             <div className='text-justify mt-2 flex-1'>
                 {project["description"]}

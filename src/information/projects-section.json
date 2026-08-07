@@ -1,14 +1,14 @@
 {   "projects-topics": [
         {
             "title": "CORE", "url": "https://www.ing.uc.cl/en/academicos-e-investigadores/cristian-riveros-jaeger/",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "CORE is a novel COmplex event Recognition Engine developed by my group in collaboration with the University of Hasselt and others. CORE is based on the theoretical framework partially developed by my research group and implements the latest research techniques in the area, with strong guarantees of efficiency. CORE serves as a sandbox to study new features and algorithms in complex event recognition before implementing and testing them there.",
             "important-work": [
                 {"title": "CORE+: A Complex Event Recognition Engine in C++", "year": "2025", "authors": "Kyle Bossonney, Nicolás Buzeta, Vicente Calisto, Juan-Eduardo López and Stijn Vansummeren", "type": "SIGMOD", "pdf-link": "dl.acm.org/doi/10.1145/3722212.3725090", "slides-link": "", "comments": ""}, {"title": "CORE: a COmplex event Recognition Engine", "year": "2022", "authors": "Marco Bucchi, Alejandro Grez, Andrés Quintana and Stijn Vansummeren", "type": "PVLDB", "pdf-link": "https://www.vldb.org/pvldb/vol15/p1951-riveros.pdf", "slides-link": "", "comments": ""}
             ]
         },
         {
             "title": "ReMatch", "url": "",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "REmatch is a novel regex engine for information extraction. REmatch is based on a recently proposed enumeration algorithm for evaluating regular expressions with capture variables supporting the all-match semantics. Our purpose is to develop a new generation of regex engines and information extraction tools based on research in logic, automata theory, and algorithms.",
             "important-work": [
                 {"title": "Demonstrating REmatch: A Novel RegEx Engine for Finding all Matches", "year": "2024", "authors": "Kyle Bossonney, Vicente Calisto, Gustavo Toro, Nicolás Van Sint Jan and Domagoj Vrgoc", "type": "SIGMOD", "pdf-link": "dl.acm.org/doi/10.1145/3626246.3654746", "slides-link": "", "comments": ""}
             ]

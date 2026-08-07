@@ -22,7 +22,7 @@ export default function Navbar () {
             <div className={'fixed z-20 top-10 bg-gray-1 justify-self-end h-full w-1/2 md:w-1/4 lg:w-3/16' + (hideMenu ? ' hidden' : '')}
             // md:w-2/16 xl:w-2/16
             >
-                <ul className={'bg-gray-1 w-3/16 flex flex-col font-medium m-2 pt-0 space-y-2 ml-4' + (hideMenu ? ' hidden' : '')}>
+                <ul className={'bg-gray-1 w-7/16 flex flex-col text-left font-medium m-2 pt-0 space-y-2 ml-4' + (hideMenu ? ' hidden' : '')}>
                     <li>
                         <a href={Links['home']} className="block py-2 px-3 hover:text-white bg-brand rounded ">Home</a>
                         {/* <Link to={Links['home']} className={'block py-2 px-3 hover:text-white bg-brand rounded' + (hideMenu ? ' hidden' : '')}>Home</Link> */}
@@ -40,13 +40,13 @@ export default function Navbar () {
                         {/* <Link to={Links['projects']} className="block py-2 px-3 text-heading rounded hover:text-white ">Projects</Link> */}
                     </li>
                     <li>
-                        <a href={Links['courses']} className="block py-2 px-3 text-heading rounded hover:text-white ">Courses</a>
+                        <a href={Links['courses']} className="block py-2 pl-3 text-heading rounded hover:text-white ">Courses and Talks</a>
                         {/* <Link to={Links['courses']} className="block py-2 px-3 text-heading rounded hover:text-white ">Courses</Link> */}
                     </li>
-                    <li>
+                    {/* <li>
                         <a href={Links['talks']} className="block py-2 pb-4 px-3 text-heading rounded hover:text-white ">Talks</a>
-                        {/* <Link to={Links['talks']} className="block py-2 pb-4 px-3 text-heading rounded hover:text-white ">Talks</Link> */}
-                    </li>
+                        <Link to={Links['talks']} className="block py-2 pb-4 px-3 text-heading rounded hover:text-white ">Talks</Link>
+                    </li> */}
                 </ul>
             </div>
         </nav>   
