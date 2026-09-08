@@ -8,11 +8,11 @@ import { RouterProvider } from "react-router/dom";
 import HomePage from './pages/home.jsx';
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
-  // <HashRouter basename='https://crivero1.github.io/#'>
-  // <HashRouter>
+  // <BrowserRouter>
   //   <App />
-  // </HashRouter>
+  // </BrowserRouter>
+  // <HashRouter basename='https://crivero1.github.io/#'>
+  <HashRouter>
+    <App />
+  </HashRouter>
 );

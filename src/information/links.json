@@ -1,8 +1,8 @@
 {
     "home": "/", 
-    "publications": "/publications",
-    "students": "/students",
-    "projects": "/projects",
-    "courses": "/courses",
-    "talks": "/talks"
+    "publications": "/#/publications",
+    "students": "/#/students",
+    "projects": "/#/projects",
+    "courses": "/#/courses",
+    "talks": "/#/talks"
 }
