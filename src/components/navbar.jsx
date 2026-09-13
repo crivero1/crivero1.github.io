@@ -61,7 +61,7 @@ export default function Navbar () {
                         onClick={() => {
                             setHideMenu(!hideMenu);
                         }}
-                        className="block py-2 px-3 text-heading rounded hover:text-white ">Courses</Link>
+                        className="block py-2 pl-3 text-heading rounded hover:text-white ">Courses and Talks</Link>
                     </li>
                 </ul>
             </div>
