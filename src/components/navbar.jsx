@@ -4,7 +4,7 @@ import Links from '../information/links.json';
 
 export default function Navbar () {
     const [hideMenu, setHideMenu] = useState(true);
-    const links = Links[links];
+    const links = Links["links"];
     return (
     <>
         <nav className='fixed w-full z-20 top-0 start-0 bg-gray-1 mx-0 border-default'>

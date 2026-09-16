@@ -39,6 +39,7 @@ function listToBoxes(listOfParams, color, bold_color, link, border_shape, border
 
 export default function HomePage() {
     const links = Links["links-hash"];
+    console.log(links);
     return(
         <>
             <div className="mt-10">
