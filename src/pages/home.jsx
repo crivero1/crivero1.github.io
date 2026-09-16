@@ -38,6 +38,7 @@ function listToBoxes(listOfParams, color, bold_color, link, border_shape, border
 }
 
 export default function HomePage() {
+    const links = Links["links-hash"];
     return(
         <>
             <div className="mt-10">
@@ -96,16 +97,16 @@ export default function HomePage() {
                 </div>
                 <div className="md:grid md:grid-cols-2 ">
                     {<Box title='Research Areas' list={Topics['information'][0]} color='' border_shape='' border_color='border-gray-300' />}
-                    {listToBoxes(Topics['research-topics'], '', 'text-blue-1', Links['publications'], 'rounded-xl', 'border-gray-300')}
+                    {listToBoxes(Topics['research-topics'], '', 'text-blue-1', links['publications'], 'rounded-xl', 'border-gray-300')}
                     {/* {listToBoxes(Projects['projects-topics'], 'bg-gray-1')} */}
                 </div>
                 <div className="md:grid md:grid-cols-2 ">
                     {<Box title='Projects' list={Projects['information'][0]} color='bg-gray-1' border_shape='' border_color='border-transparent' />}
-                    {listToBoxes(Projects['projects-topics'], 'bg-gray-1', 'text-blue-1', Links['projects'], 'rounded-xl', 'border-transparent')}
+                    {listToBoxes(Projects['projects-topics'], 'bg-gray-1', 'text-blue-1', links['projects'], 'rounded-xl', 'border-transparent')}
                 </div>
                 <div className="md:grid md:grid-cols-2 ">
                     {<Box title='Teaching' list={Projects['information'][0]} color='bg-blue-3' border_shape='' border_color='border-transparent' />}
-                    {listToBoxes(Courses['courses'], 'bg-blue-3', 'text-gray-1', Links['courses'], 'rounded-xl', 'border-transparent')}
+                    {listToBoxes(Courses['courses'], 'bg-blue-3', 'text-gray-1', links['courses'], 'rounded-xl', 'border-transparent')}
                 </div>
             </div>
         </>

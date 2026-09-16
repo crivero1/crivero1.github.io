@@ -1,8 +1,19 @@
-{
-    "home": "/", 
-    "publications": "/#/publications",
-    "students": "/#/students",
-    "projects": "/#/projects",
-    "courses": "/#/courses",
-    "talks": "/#/talks"
+{   "links-hash":
+        {
+            "home": "/", 
+            "publications": "/#/publications",
+            "students": "/#/students",
+            "projects": "/#/projects",
+            "courses": "/#/courses",
+            "talks": "/#/talks"
+        },
+    "links":
+        {
+            "home": "/", 
+            "publications": "/publications",
+            "students": "/students",
+            "projects": "/projects",
+            "courses": "/courses",
+            "talks": "/talks"
+        }
 }

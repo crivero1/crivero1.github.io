@@ -4,6 +4,7 @@ import Links from '../information/links.json';
 
 export default function Navbar () {
     const [hideMenu, setHideMenu] = useState(true);
+    const links = Links[links];
     return (
     <>
         <nav className='fixed w-full z-20 top-0 start-0 bg-gray-1 mx-0 border-default'>
@@ -24,40 +25,40 @@ export default function Navbar () {
             >
                 <ul className={'bg-gray-1 w-7/16 flex flex-col text-left font-medium m-2 pt-0 space-y-2 ml-4' + (hideMenu ? ' hidden' : '')}>
                     <li>
-                        {/* <a href={Links['home']} className="block py-2 px-3 hover:text-white bg-brand rounded ">Home</a> */}
-                        <Link to={Links['home']} 
+                        {/* <a href={links['home']} className="block py-2 px-3 hover:text-white bg-brand rounded ">Home</a> */}
+                        <Link to={links['home']} 
                         onClick={() => {
                             setHideMenu(!hideMenu);
                         }}
                         className={'block py-2 px-3 hover:text-white bg-brand rounded' + (hideMenu ? ' hidden' : '')}>Home</Link>
                     </li>
                     <li>
-                        {/* <a href={Links['publications']} className="block py-2 px-3 text-heading rounded hover:text-white ">Publications</a> */}
-                        <Link to={Links['publications']} 
+                        {/* <a href={links['publications']} className="block py-2 px-3 text-heading rounded hover:text-white ">Publications</a> */}
+                        <Link to={links['publications']} 
                         onClick={() => {
                             setHideMenu(!hideMenu);
                         }}
                         className="block py-2 px-3 text-heading rounded hover:text-white ">Publications</Link>
                     </li>
                     <li>
-                        {/* <a href={Links['students']} className="block py-2 px-3 text-heading rounded hover:text-white ">Students</a> */}
-                        <Link to={Links['students']} 
+                        {/* <a href={links['students']} className="block py-2 px-3 text-heading rounded hover:text-white ">Students</a> */}
+                        <Link to={links['students']} 
                         onClick={() => {
                             setHideMenu(!hideMenu);
                         }}
                         className="block py-2 px-3 text-heading rounded hover:text-white ">Students</Link>
                     </li>
                     <li>
-                        {/* <a href={Links['projects']} className="block py-2 px-3 text-heading rounded hover:text-white ">Projects</a> */}
-                        <Link to={Links['projects']} 
+                        {/* <a href={links['projects']} className="block py-2 px-3 text-heading rounded hover:text-white ">Projects</a> */}
+                        <Link to={links['projects']} 
                         onClick={() => {
                             setHideMenu(!hideMenu);
                         }}
                         className="block py-2 px-3 text-heading rounded hover:text-white ">Projects</Link>
                     </li>
                     <li>
-                        {/* <a href={Links['courses']} className="block py-2 pl-3 text-heading rounded hover:text-white ">Courses and Talks</a> */}
-                        <Link to={Links['courses']} 
+                        {/* <a href={links['courses']} className="block py-2 pl-3 text-heading rounded hover:text-white ">Courses and Talks</a> */}
+                        <Link to={links['courses']} 
                         onClick={() => {
                             setHideMenu(!hideMenu);
                         }}
